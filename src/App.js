@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
   Route,
   Routes,
-  BrowserRouter
+ 
 } from "react-router-dom";
 import './App.css';
 import SignIn from './Access/SignIn/SignIn';
 import NotFound from './Access/NotFound/NotFound';
 import Home from './Components/Home/Home'
 import modules from "./Modules";
-import { Providers  } from './Components/Context/Context';
+import { Providers  } from './Context/Context';
 
 function App() {
 
